@@ -1,1 +1,7 @@
-
+-- Drops existing tables, so we start fresh with each
+-- run of this script
+DROP TABLE IF EXISTS likes;
+DROP TABLE IF EXISTS comments;
+DROP TABLE IF EXISTS follows;
+DROP TABLE IF EXISTS posts;
+DROP TABLE IF EXISTS users;
